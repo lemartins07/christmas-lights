@@ -85,3 +85,39 @@ h1 {
 .green.active {
   box-shadow: 0 0 20px 5px #2ecc71;
 }
+
+.off {
+  background: #563260;
+}
+
+.control-panel {
+  margin-top: 200px;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: purple;
+  background: none;
+  color: #eee;
+  margin-right: 10px;  
+  border-bottom-style: inset;
+  border-right-style: inset;
+  transition: .2s;
+}
+
+.btn:active {
+  border-color: white;
+  background: purple;
+  border-bottom-style: outset;
+  border-right-style: outset; 
+}
+
+.btn.active {
+  border-color: white;
+  background: purple;
+  border-bottom-style: outset;
+  border-right-style: outset; 
+}
+
