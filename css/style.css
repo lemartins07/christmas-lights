@@ -51,16 +51,37 @@ h1 {
 
 .red {
   background: #c0392b;
+  transition: .5s;  
 }
+
+.red.active {
+  box-shadow: 0 0 20px 5px #c0392b;;
+}
+
 
 .yellow {
   background: #f1c40f;
+  transition: .5s;
+}
+
+.yellow.active {
+  box-shadow: 0 0 20px 5px #f1c40f;
 }
 
 .blue {
  background: #64fcfe;
+ transition: .5s;
+}
+
+.blue.active {
+  box-shadow: 0 0 20px 5px #64fcfe;
 }
 
 .green {
  background: #2ecc71;
+ transition: .5s;
+}
+
+.green.active {
+  box-shadow: 0 0 20px 5px #2ecc71;
 }
