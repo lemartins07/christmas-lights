@@ -11,7 +11,6 @@
 
 <body>
   <div class="wrapper">
-    <h1>Christmas Lights</h1>
     <ul class="row">
       <li class="circle-light red"></li>
       <li class="circle-light yellow"></li>
@@ -21,9 +20,18 @@
       <li class="circle-light yellow"></li>
       <li class="circle-light blue"></li>
     </ul>
+    <h1>Christmas Lights</h1>
     <div class="control-panel">
-      <button class="btn start">On</button>
-      <button class="btn stop">Off</button>
+      <div class="init-control">
+        <button class="btn start">On</button>
+        <button class="btn stop">Off</button>
+      </div>
+
+      <div class="intensity-control">
+        <label for="intensity">Intensity</label>
+        <input name="intensity" id="intensity" type="number" value="1" min="1" max="5" />
+        <button class="btn-run">Run</button>
+      </div>
     </div>
   </div>
 

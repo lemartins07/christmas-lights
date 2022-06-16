@@ -2,7 +2,7 @@ body, ul, li {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background: #111;
 }
 
@@ -11,23 +11,26 @@ ul {
 }
 
 h1 {
-  margin: 0;
+  margin: 120px 0 60px;
   color: white;
+  font-size: 5rem;  
+  text-shadow: 0 0px 40px white;
+  text-transform: uppercase;
 }
 
 .wrapper {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;  
   height: 100vh;
   padding: 20px;
   text-align: center;
 }
 
-.row {
-  margin-top: 60px;
+.row { 
+  margin-top: 20px; 
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .circle-light {
@@ -91,7 +94,14 @@ h1 {
 }
 
 .control-panel {
-  margin-top: 200px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.init-control {
+  margin-right: 60px;
 }
 
 .btn {
@@ -121,3 +131,35 @@ h1 {
   border-right-style: outset; 
 }
 
+.intensity-control {
+  display: flex;
+}
+
+.intensity-control label {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.intensity-control input {
+  width: 140px;
+  height: 40px;
+  border-radius: 8px 0 0 8px;
+}
+
+.intensity-control button {
+  border-color: purple;
+  border-bottom-style: inset;
+  border-right-style: inset;
+  background: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  margin-left: 8px;
+}
+
+.intensity-control button:active {
+  border-color: white;
+  background: purple;
+  border-bottom-style: outset;
+  border-right-style: outset; 
+} 
