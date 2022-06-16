@@ -1,5 +1,7 @@
 # Christmas Lights
 
+<img src="./assets/img/app.png" />
+
 **Tier:** 1-Beginner
 
 The ChristmasLights application relies on your development talents to create
